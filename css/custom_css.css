@@ -1,5 +1,5 @@
 .bg-primary {
-  background-image: url("../background.png");
+  background-image: url("../images/background.png");
   animation-name: example;
   animation-duration: 20s;
   animation-iteration-count: infinite;
@@ -7,9 +7,9 @@
 
 @keyframes example {
   0%   {background-image: url("../background.png");}
-  25%  {background-image: url("../background1.png");}
-  50%  {background-image: url("../background.png");}
-  100% {background-image: url("../background1.png");}
+ 
+  50%  {background-image: url("../images/background1.png");}
+
 }
 .aboutsec{
 	background-color: #242222;
